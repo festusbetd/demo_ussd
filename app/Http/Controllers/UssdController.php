@@ -36,7 +36,7 @@ class UssdController extends Controller
         }
         elseif ($text == "2") {
          
-            $response = "Please enter your email";
+            $response = "Kindly input your pin";
                }
         elseif ($text == "3") {
             // Our response a user respond with input 2 from our first level
