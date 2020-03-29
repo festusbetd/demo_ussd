@@ -15,7 +15,7 @@ class UssdController extends Controller
         $level = count($ussd_string_exploded);
         if ($text == "") {
             // first response when a user dials our ussd code
-            $response  = "Welcome to MumTribe \n";
+            $response  = "CON Welcome to MumTribe \n";
             $response .= "1. Register \n";
             $response .= "2. Login \n";
             $response .= "3. About MumTribe";
@@ -25,7 +25,7 @@ class UssdController extends Controller
             $response = "Please enter your first name";
         }
         elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 1 && $level == 3) {
-            $response = "Please enter your last name";
+            $response = "CON Please enter your last name";
         }
         elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 1 && $level == 4) {
             $response = "CON Please enter your email";
@@ -36,11 +36,11 @@ class UssdController extends Controller
         }
         elseif ($text == "2") {
          
-            $response = "Kindly input your pin";
+            $response = "CON Kindly input your pin";
                }
         elseif ($text == "3") {
             // Our response a user respond with input 2 from our first level
-            $response = "Our innovation is designed around , helping mums, dads and their loved ones prepare for and welcome their little angels in the best ways possible and never alone!​.";
+            $response = "END Our innovation is designed around , helping mums, dads and their loved ones prepare for and welcome their little angels in the best ways possible and never alone!​.";
         }
       
         // send your response back to the API
