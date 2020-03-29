@@ -22,7 +22,7 @@ class UssdController extends Controller
         }
         elseif ($text == "1") {
             // when use response with option django
-            $response = "Please enter your first name";
+            $response = "CON Please enter your first name";
         }
         elseif ($ussd_string_exploded[0] == 1 && $ussd_string_exploded[1] == 1 && $level == 3) {
             $response = "CON Please enter your last name";
@@ -36,11 +36,11 @@ class UssdController extends Controller
         }
         elseif ($text == "2") {
          
-            $response = "Kindly input your pin";
+            $response = " CON Kindly input your pin";
                }
         elseif ($text == "3") {
             // Our response a user respond with input 2 from our first level
-            $response = "Our innovation is designed around , helping mums, dads and their loved ones prepare for and welcome their little angels in the best ways possible and never alone!​.";
+            $response = "END Our innovation is designed around , helping mums, dads and their loved ones prepare for and welcome their little angels in the best ways possible and never alone!​.";
         }
       
         // send your response back to the API
