@@ -36,11 +36,11 @@ class UssdController extends Controller
         }
         elseif ($text == "2") {
          
-            $response = "CON Kindly input your pin";
+            $response = "Kindly input your pin";
                }
         elseif ($text == "3") {
             // Our response a user respond with input 2 from our first level
-            $response = "END Our innovation is designed around , helping mums, dads and their loved ones prepare for and welcome their little angels in the best ways possible and never alone!​.";
+            $response = "Our innovation is designed around , helping mums, dads and their loved ones prepare for and welcome their little angels in the best ways possible and never alone!​.";
         }
       
         // send your response back to the API
