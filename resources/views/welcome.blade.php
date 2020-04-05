@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                   Give also a just to explain myself
+                   Give me also a just to explain myself
                 </div>
             </div>
         </div>
