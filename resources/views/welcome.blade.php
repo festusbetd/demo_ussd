@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Mum Tribe</title>
+        <title>Sorry</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 54px;
             }
 
             .links > a {
@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                   Give me also a just to explain myself
+                   Give me also a chance to explain myself
                 </div>
             </div>
         </div>
