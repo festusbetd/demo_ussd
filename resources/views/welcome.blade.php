@@ -81,11 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   MumTribe
+                  Dont Just Frustrate and Humiliate me Rossie
                 </div>
 
                 <div class="links">
-                   
+                   Give also a just to explain myself
                 </div>
             </div>
         </div>
